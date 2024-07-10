@@ -315,7 +315,6 @@ nav > p{
     height: 314px;
     border-radius: 16px;
     margin:120px auto;
-    border: 2px solid red;
     background-image:url("../assets/handshakee.jpg");
     background-repeat: no-repeat;
     background-size:cover;
@@ -365,4 +364,21 @@ nav > p{
     font-weight: 600;
     line-height: 23px;
     border: 0;
+}
+/* footer styles */
+footer{
+    width: 1140px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+footer >p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+footer > div > a{
+    margin-right: 15px;
 }

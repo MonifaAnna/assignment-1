@@ -93,7 +93,7 @@ nav > p{
 /* web development styles */
 .development-container{
     max-width: 1140px;
-    height: 1395px;
+    height: 1440px;
     margin: 80px auto 0px auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -215,4 +215,30 @@ nav > p{
     width: 259.56px;
     height: 217.01px;
     margin-left: 99px;
+}
+/* my inspiration styles */
+.my-inspiration-container{
+    width: 1140px;
+    height: 777px;
+    margin: 88px auto;
+    text-align: center;
+}
+.my-inspiration-container > h1{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+   padding-bottom: 20px;
+}
+.my-inspiration-container > p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 0px 60px;
+}
+.my-inspiration-container > iframe{
+    border-radius: 16px;
+    margin: 80px auto;
+
 }
